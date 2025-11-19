@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #000;
+    color: yellow;
+    margin: 0;
+    padding: 20px;
+}
+
+.pacman-img {
+    width: 150px;
+    margin: 20px 0;
+}
+
+.description {
+    max-width: 300px;
+    margin: auto;
+}
+
+#startBtn {
+    padding: 10px 20px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+#gameCanvas {
+    background: #111;
+    border: 2px solid yellow;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Адаптація під телефон */
+@media (max-width: 500px) {
+    #gameCanvas {
+        width: 300px;
+        height: 300px;
+    }
+}
